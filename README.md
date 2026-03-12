@@ -12,4 +12,4 @@
 
 <hr/> </hr>
 
-<img align="center" width=600 src="https://github.com/mahmudhussaininfo/nextjs_docucraft/blob/mrmamu/photo/mamur-Dukan.png"/>
+<img align="center" width=600 src="https://github.com/mahmudhussaininfo/nextjs_docucraft/blob/mrmamu/photo/docu_home.png"/>
