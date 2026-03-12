@@ -1,5 +1,4 @@
 import Image from "next/image.js";
-import Link from "next/link.js";
 import React from "react";
 
 const Landing = () => {
@@ -19,11 +18,6 @@ const Landing = () => {
                   style with Protocol, a beautiful API documentation template.
                 </p>
                 <div className="mt-10 flex flex-wrap gap-4">
-                  <Link
-                    href="#"
-                    className="inline-flex justify-center rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-700"
-                    target="_blank"
-                  />
                   <span>Get Started</span>
                 </div>
               </div>
