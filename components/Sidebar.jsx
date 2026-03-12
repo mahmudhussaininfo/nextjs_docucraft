@@ -53,7 +53,7 @@ const Sidebar = ({ docs }) => {
     });
     setRootNodes([...roots]);
     setNonRootNodes({ ...nonRoots });
-  }, [pathname]);
+  }, [pathname, docs]);
 
   return (
     <>
