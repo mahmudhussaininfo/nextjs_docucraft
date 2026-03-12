@@ -60,7 +60,7 @@ const Sidebar = ({ docs }) => {
       <nav className="hidden lg:mt-10 lg:block">
         <ul role="list" className="border-l border-transparent">
           {rootNodes.map((root) => (
-            <li className="relative">
+            <li className="relative" key={root.id}>
               <Link
                 className="flex justify-between gap-2 py-1 pl-7 pr-3 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                 href={`/docs/${root.id}`}
